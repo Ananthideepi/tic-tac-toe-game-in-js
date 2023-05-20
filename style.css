@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin:0;
+    padding: 0px;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+}
+body{
+    background-color: #2a2e2e;
+    width: 100vw;
+    height: 100vh;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.box{
+    width: 70px;
+    height: 70px;
+    border: 2px solid #eccc68;
+    box-shadow: 0 0 0 2px  #eccc68;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.status{
+    padding:20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #97750d;
+}
